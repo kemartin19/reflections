@@ -14,3 +14,28 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 When a file is in the staging area, you can easily compare it to the last commit, and see
 if the changes warrant a new commit.
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+Branches make sense when we are making multiple different versions of a file, or are working
+on an experimental version that we are not sure will work. This way we can easily return
+to the main branch whenever we need to.
+
+How do the diagrams help you visualize the branch structure?
+
+With the diagrams, it is easy to which which commits belong to each branch, and what the
+parent commits are for each commit.
+
+What is the result of merging two branches together? Why do we represent
+it in the diagram the way we do?
+
+When we merge two branches together, we essentially combine the master
+branch with another branch to create a new master branch that includes 
+all the commits from the previous master branch and the new branch.
+
+What are the pros and cons of Git's automatic merging vs. always doing
+merges manually?
+
+Always doing merges manually would be really time consuming. However, sometimes Git does not know how to merge two branches and requires input from a
+human.
