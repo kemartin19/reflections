@@ -9,3 +9,10 @@ stay up-to-date with your remote repository?
 For the same reasons that you would want to make your commits on your machine manually rather than automatically.
 Having Git automatically pull every change made on GitHub could pull changes that aren't ready/functioning, and it
 does not make sense to pull every tiny change made to a file/program.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Within one repository, you can create a branch of commits in order to test out code, etc. In order to move your
+repository to GitHub, or from GitHub to your machine, you can create a clone of your tree. Finally, forks are a 
+GitHub-only method of essentially cloning someone else's code/files in order for you to be able to make changes
+without changing their original files(s).
